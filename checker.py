@@ -4,7 +4,7 @@ import time
 webhook = "webhook"
 token = "token"
 id = "id"
-headers = {"authorization": token, "X-Audit-Log-Reason": "dc:berkrate", "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"}
+headers = {"authorization": token, "X-Audit-Log-Reason": "dc:rateberk", "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"}
 
 session = requests.Session()
 session.headers.update(headers)
